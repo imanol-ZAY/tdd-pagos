@@ -1,0 +1,18 @@
+test_devuelve_el_pago_existente (tests.test_consultar_reembolsar.PruebasConsultarPago.test_devuelve_el_pago_existente) ... ok
+test_pago_inexistente_lanza_no_encontrado (tests.test_consultar_reembolsar.PruebasConsultarPago.test_pago_inexistente_lanza_no_encontrado) ... ok
+test_no_reembolsa_dos_veces (tests.test_consultar_reembolsar.PruebasReembolsarPago.test_no_reembolsa_dos_veces) ... ok
+test_no_reembolsa_pago_que_no_esta_aprobado (tests.test_consultar_reembolsar.PruebasReembolsarPago.test_no_reembolsa_pago_que_no_esta_aprobado) ... ok
+test_reembolsa_pago_aprobado_y_lo_guarda (tests.test_consultar_reembolsar.PruebasReembolsarPago.test_reembolsa_pago_aprobado_y_lo_guarda) ... ok
+test_reembolsar_pago_inexistente_lanza_no_encontrado (tests.test_consultar_reembolsar.PruebasReembolsarPago.test_reembolsar_pago_inexistente_lanza_no_encontrado) ... ok
+test_si_la_pasarela_rechaza_el_reembolso_no_cambia_el_estado (tests.test_consultar_reembolsar.PruebasReembolsarPago.test_si_la_pasarela_rechaza_el_reembolso_no_cambia_el_estado) ... ok
+test_cobra_el_monto_y_el_token_recibidos (tests.test_procesar_pago.PruebasProcesarPago.test_cobra_el_monto_y_el_token_recibidos) ... ok
+test_error_de_pasarela_guarda_estado_error_y_lanza_pago_fallido (tests.test_procesar_pago.PruebasProcesarPago.test_error_de_pasarela_guarda_estado_error_y_lanza_pago_fallido) ... ok
+test_monto_cero_lanza_error_y_no_toca_dependencias (tests.test_procesar_pago.PruebasProcesarPago.test_monto_cero_lanza_error_y_no_toca_dependencias) ... ok
+test_monto_negativo_lanza_error (tests.test_procesar_pago.PruebasProcesarPago.test_monto_negativo_lanza_error) ... ok
+test_pago_aprobado_se_guarda_como_aprobado (tests.test_procesar_pago.PruebasProcesarPago.test_pago_aprobado_se_guarda_como_aprobado) ... ok
+test_pago_rechazado_se_guarda_como_rechazado (tests.test_procesar_pago.PruebasProcesarPago.test_pago_rechazado_se_guarda_como_rechazado) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.007s
+
+OK

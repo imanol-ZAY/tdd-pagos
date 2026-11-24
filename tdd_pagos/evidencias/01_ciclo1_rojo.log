@@ -1,0 +1,101 @@
+test_cobra_el_monto_y_el_token_recibidos (tests.test_procesar_pago.PruebasProcesarPago.test_cobra_el_monto_y_el_token_recibidos) ... ERROR
+test_error_de_pasarela_guarda_estado_error_y_lanza_pago_fallido (tests.test_procesar_pago.PruebasProcesarPago.test_error_de_pasarela_guarda_estado_error_y_lanza_pago_fallido) ... ERROR
+test_monto_cero_lanza_error_y_no_toca_dependencias (tests.test_procesar_pago.PruebasProcesarPago.test_monto_cero_lanza_error_y_no_toca_dependencias) ... ERROR
+test_monto_negativo_lanza_error (tests.test_procesar_pago.PruebasProcesarPago.test_monto_negativo_lanza_error) ... ERROR
+test_pago_aprobado_se_guarda_como_aprobado (tests.test_procesar_pago.PruebasProcesarPago.test_pago_aprobado_se_guarda_como_aprobado) ... ERROR
+test_pago_rechazado_se_guarda_como_rechazado (tests.test_procesar_pago.PruebasProcesarPago.test_pago_rechazado_se_guarda_como_rechazado) ... ERROR
+
+======================================================================
+ERROR: test_cobra_el_monto_y_el_token_recibidos (tests.test_procesar_pago.PruebasProcesarPago.test_cobra_el_monto_y_el_token_recibidos)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/claude/tdd_pagos/tests/test_procesar_pago.py", line 22, in setUp
+    self.procesador = ProcesadorPagos(
+                      ~~~~~~~~~~~~~~~^
+        self.pasarela, self.repositorio, generador_id=lambda: "P-001"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/claude/tdd_pagos/pagos/procesador.py", line 7, in __init__
+    raise NotImplementedError
+NotImplementedError
+
+======================================================================
+ERROR: test_error_de_pasarela_guarda_estado_error_y_lanza_pago_fallido (tests.test_procesar_pago.PruebasProcesarPago.test_error_de_pasarela_guarda_estado_error_y_lanza_pago_fallido)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/claude/tdd_pagos/tests/test_procesar_pago.py", line 22, in setUp
+    self.procesador = ProcesadorPagos(
+                      ~~~~~~~~~~~~~~~^
+        self.pasarela, self.repositorio, generador_id=lambda: "P-001"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/claude/tdd_pagos/pagos/procesador.py", line 7, in __init__
+    raise NotImplementedError
+NotImplementedError
+
+======================================================================
+ERROR: test_monto_cero_lanza_error_y_no_toca_dependencias (tests.test_procesar_pago.PruebasProcesarPago.test_monto_cero_lanza_error_y_no_toca_dependencias)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/claude/tdd_pagos/tests/test_procesar_pago.py", line 22, in setUp
+    self.procesador = ProcesadorPagos(
+                      ~~~~~~~~~~~~~~~^
+        self.pasarela, self.repositorio, generador_id=lambda: "P-001"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/claude/tdd_pagos/pagos/procesador.py", line 7, in __init__
+    raise NotImplementedError
+NotImplementedError
+
+======================================================================
+ERROR: test_monto_negativo_lanza_error (tests.test_procesar_pago.PruebasProcesarPago.test_monto_negativo_lanza_error)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/claude/tdd_pagos/tests/test_procesar_pago.py", line 22, in setUp
+    self.procesador = ProcesadorPagos(
+                      ~~~~~~~~~~~~~~~^
+        self.pasarela, self.repositorio, generador_id=lambda: "P-001"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/claude/tdd_pagos/pagos/procesador.py", line 7, in __init__
+    raise NotImplementedError
+NotImplementedError
+
+======================================================================
+ERROR: test_pago_aprobado_se_guarda_como_aprobado (tests.test_procesar_pago.PruebasProcesarPago.test_pago_aprobado_se_guarda_como_aprobado)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/claude/tdd_pagos/tests/test_procesar_pago.py", line 22, in setUp
+    self.procesador = ProcesadorPagos(
+                      ~~~~~~~~~~~~~~~^
+        self.pasarela, self.repositorio, generador_id=lambda: "P-001"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/claude/tdd_pagos/pagos/procesador.py", line 7, in __init__
+    raise NotImplementedError
+NotImplementedError
+
+======================================================================
+ERROR: test_pago_rechazado_se_guarda_como_rechazado (tests.test_procesar_pago.PruebasProcesarPago.test_pago_rechazado_se_guarda_como_rechazado)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/claude/tdd_pagos/tests/test_procesar_pago.py", line 22, in setUp
+    self.procesador = ProcesadorPagos(
+                      ~~~~~~~~~~~~~~~^
+        self.pasarela, self.repositorio, generador_id=lambda: "P-001"
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/claude/tdd_pagos/pagos/procesador.py", line 7, in __init__
+    raise NotImplementedError
+NotImplementedError
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.006s
+
+FAILED (errors=6)

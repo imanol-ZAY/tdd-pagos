@@ -1,0 +1,11 @@
+test_cobra_el_monto_y_el_token_recibidos (tests.test_procesar_pago.PruebasProcesarPago.test_cobra_el_monto_y_el_token_recibidos) ... ok
+test_error_de_pasarela_guarda_estado_error_y_lanza_pago_fallido (tests.test_procesar_pago.PruebasProcesarPago.test_error_de_pasarela_guarda_estado_error_y_lanza_pago_fallido) ... ok
+test_monto_cero_lanza_error_y_no_toca_dependencias (tests.test_procesar_pago.PruebasProcesarPago.test_monto_cero_lanza_error_y_no_toca_dependencias) ... ok
+test_monto_negativo_lanza_error (tests.test_procesar_pago.PruebasProcesarPago.test_monto_negativo_lanza_error) ... ok
+test_pago_aprobado_se_guarda_como_aprobado (tests.test_procesar_pago.PruebasProcesarPago.test_pago_aprobado_se_guarda_como_aprobado) ... ok
+test_pago_rechazado_se_guarda_como_rechazado (tests.test_procesar_pago.PruebasProcesarPago.test_pago_rechazado_se_guarda_como_rechazado) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.003s
+
+OK
